@@ -1,0 +1,142 @@
+{
+	"name": "sample/project",
+	"description": "Sample Symphony project",
+	"homepage": "http://sample.com",
+	"config": {
+		"vendor-dir": "extensions"
+	},
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "composer",
+				"version": "dev-master",
+				"source": {
+					"url": "https://github.com/bzerangue/sym-composer-extension",
+					"type": "git",
+					"reference": "master"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "export_ensemble",
+				"version": "dev-master",
+				"source": {
+					"url": "https://github.com/symphonycms/export_ensemble.git",
+					"type": "git",
+					"reference": "master"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "markdown",
+				"version": "dev-master",
+				"source": {
+					"url": "https://github.com/symphonycms/markdown.git",
+					"type": "git",
+					"reference": "master"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "maintenance_mode",
+				"version": "dev-master",
+				"source": {
+					"url": "https://github.com/symphonycms/maintenance_mode.git",
+					"type": "git",
+					"reference": "master"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "selectbox_link_field",
+				"version": "dev-master",
+				"source": {
+					"url": "https://github.com/symphonycms/selectbox_link_field.git",
+					"type": "git",
+					"reference": "master"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "jit_image_manipulation",
+				"version": "dev-master",
+				"source": {
+					"url": "https://github.com/symphonycms/jit_image_manipulation.git",
+					"type": "git",
+					"reference": "master"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "profiledevkit",
+				"version": "dev-master",
+				"source": {
+					"url": "https://github.com/symphonycms/profiledevkit.git",
+					"type": "git",
+					"reference": "master"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "debugdevkit",
+				"version": "dev-master",
+				"source": {
+					"url": "https://github.com/symphonycms/debugdevkit.git",
+					"type": "git",
+					"reference": "master"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "xssfilter",
+				"version": "dev-master",
+				"source": {
+					"url": "https://github.com/symphonycms/xssfilter.git",
+					"type": "git",
+					"reference": "master"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "s3upload_field",
+				"version": "dev-master",
+				"source": {
+					"url": "https://github.com/symphonists/s3upload_field.git",
+					"type": "git",
+					"reference": "master"
+				}
+			}
+		}
+	],
+	"require": {
+		"composer": "dev-master",
+		"export_ensemble": "dev-master",
+		"markdown": "dev-master",
+		"maintenance_mode": "dev-master",
+		"selectbox_link_field": "dev-master",
+		"jit_image_manipulation": "dev-master",
+		"profiledevkit": "dev-master",
+		"debugdevkit": "dev-master",
+		"xssfilter": "dev-master",
+		"s3upload_field": "dev-master"
+	}
+}
